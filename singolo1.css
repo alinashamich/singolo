@@ -1,0 +1,235 @@
+.wrapper {
+    height: 1202px;
+    width: 1020px;
+    background: rgb(158, 139, 139);
+    margin: auto;
+    font-family: "Lato";
+}
+
+.header {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+    border-bottom-style: solid;
+    border-bottom-color: #323746;
+    border-bottom-width: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    margin: 40px 0 0 40px;
+    height: 9px;
+    width: 20px;
+
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color:#f06c64
+}
+
+
+.navbar {
+    
+
+}
+.navbar ul {
+    display: flex;
+    width: 371px;
+    justify-content: space-evenly;
+    margin:40px 40px 0 0;;
+    height: 9px;
+    text-transform: uppercase;
+}
+
+.navbar ul li {
+    font-size: 12px;
+    line-height: 6px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+  
+
+    text-align: center;
+}
+
+.navbar ul li a {
+    border-radius: 100px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li a:hover {
+    color: #f06c64;
+    text-decoration: none;
+    
+}
+
+.main {
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+    border-bottom-style: solid;
+    border-bottom-color: #ea676b;
+    border-bottom-width: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.iphones {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 774px;
+}  
+
+.iphone-ver {
+    position: absolute;
+}
+
+.iphone_display {
+    margin: 68px 0 0 18px;
+    width: 183px;
+    height: 328px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.iphone_display img {
+    margin: -132px 0 0 0;
+}
+
+.iphone-ver-cover{
+    max-height: 13px;
+    max-width: 18;
+}
+
+.iphone-gor {
+    margin-left: 300px;
+    position: absolute;
+}
+
+.iphone2_display {
+    margin: 17px -5px -102px 63px;
+    width: 329px;
+    height: 184px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.iphone2_display img {
+    margin: -118px 12px 10px -124px;
+}
+
+.arrow-left {
+    margin: 0 0 0 40px;
+}
+
+.arrow-right {
+    margin: 0 40px 0 0;
+}
+
+.footer {
+    width: 1020px;
+    height: 495px;
+    background-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-bottom-color:#ffffff;;
+    border-bottom-width: 6px;
+    position: absolute;
+
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 0 0 35px 0;
+}
+
+p {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 35 auto;
+}
+
+.Services_header {
+    width: 939px;
+    align-items: center;
+    justify-content: center;
+    margin: 67px 40px 55px 40px;
+    height: 98px;
+}
+
+.Our_services {
+    padding: 0 20px 66px 20px;
+    flex-wrap: wrap;
+    display:flex;
+    height: 213px;
+}
+
+.Service_description {
+    width: 54px;
+    text-transform: capitalize;
+    padding: 0 0 0 20px;
+}
+
+.Our_services h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    width: 171px;
+    margin: 0;
+}
+
+.Our_services p {
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    
+}
+
+
+
+.service_icon{
+    display:flex;
+    width: 300px;
+    margin: 0 0 0 20px;
+    height: 124px;
